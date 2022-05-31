@@ -87,5 +87,41 @@ Werner Vogels: You build it, you run it. https://queue.acm.org/detail.cfm?id=114
 
 Not only APIs as interface, but also: office hours, ticketing system etc.
 
+They will *never* have to talk to an Ops team.
 
+### Operation Excellence Reviews
+Usually once a week.
 
+### Deployment Strategies
+Multi-staged: Problem is your beta is also another team's dependency.
+
+https://aws.amazon.com/architecture/well-architected/?nc1=h_ls&wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc
+
+## Lightning Talks
+
+### From IT Change Management to Change Enablement
+Developers *can* deploy to prod.
+
+Score card to trust application teams.
+
+### Gamechanger skills for the future Tobias Hauk
+Where's the humanity.
+
+Coping with complexity
+
+Mindfulness
+
+"Busy is the new stupid"
+
+### Are containers and K8s overhyped? Sebastian Mangelkramer
+Overhyped? Sure. You need a reason.
+
+### Mentorship programs Oleg Nenashev
+User => Committer => Maintainer => Leader
+
+Mentorship programs are great for the community.
+
+### Big goal requires big leadership Achim Töper
+
+### Power Coders
+-> Christina Gräni
