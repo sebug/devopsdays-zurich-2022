@@ -27,3 +27,18 @@ CD as in Continuous Deployment!
 Undeployed software ages like fine milk.
 
 [How much is your fear of continuous deployment costing you](https://charity.wtf/2021/02/19/how-much-is-your-fear-costing-you/)
+
+## GitOps for the People Lian Li
+Never speak to management when addressing delivery pains:
+
+- Quality Assurance (testers manually deploy on the test environment)
+- Diverting environments
+- Compliance
+
+Suggestions:
+
+- QA -> Automated Testing, also, embed them
+- Diverting environments -> Kubernetes
+- Compliance -> GitOps
+
+
