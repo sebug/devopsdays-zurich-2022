@@ -125,3 +125,8 @@ Mentorship programs are great for the community.
 
 ### Power Coders
 -> Christina Gräni
+
+
+## From the Sponsor Booth
+CheckPoint smart workflows and API endpoints for policy changes.
+
