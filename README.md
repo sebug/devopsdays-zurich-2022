@@ -47,3 +47,10 @@ The ops team only has to approve the pull request, then it goes to prod.
 
 JiraOps! Ticket-driven delivery.
 
+## Hacking Kubernetes - Live Demo Marathon Andrew Martin from controlplane
+[@captainhashjack](https://twitter.com/captainhashjack)
+
+What are your adversaries - script kiddies to nation states
+
+
+
