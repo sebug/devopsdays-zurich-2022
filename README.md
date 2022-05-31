@@ -67,5 +67,20 @@ replacing runc
 
 [Canary Tokens](https://www.canarytokens.org/generate)
 
+## Cybersecurity Beyond Automation - David Sommer and Derek Yu
+Don't forget the legacy systems, as long as they're active people have the
+easiest way in there.
+
+Just having the database backed up is not really a good strategy, you have
+to be able to bootstrap the whole system.
+
+security.txt
+
+https://www.google.com/.well-known/security.txt
+
+-> we should really add that to our product
+
+SBOM -> Software Bill Of Materials, that way at least you can filter on CVEs linked on that.
+
 
 
