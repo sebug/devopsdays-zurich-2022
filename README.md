@@ -82,5 +82,10 @@ https://www.google.com/.well-known/security.txt
 
 SBOM -> Software Bill Of Materials, that way at least you can filter on CVEs linked on that.
 
+## DevOps culture at Amazon - Ramon Lopez Narvaez
+Werner Vogels: You build it, you run it. https://queue.acm.org/detail.cfm?id=1142065
+
+Not only APIs as interface, but also: office hours, ticketing system etc.
+
 
 
