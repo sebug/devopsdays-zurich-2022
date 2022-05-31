@@ -52,5 +52,20 @@ JiraOps! Ticket-driven delivery.
 
 What are your adversaries - script kiddies to nation states
 
+Supply chain attack - NPM modules
+
+### package.json has pre-install hooks
+
+How to fix:
+- 2FA for signing keys and SSH
+- no plaintext tokens
+
+Docker images: typo-squatting
+
+### Dirty pipe
+replacing runc
+
+[Canary Tokens](https://www.canarytokens.org/generate)
+
 
 
