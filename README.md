@@ -41,4 +41,9 @@ Suggestions:
 - Diverting environments -> Kubernetes
 - Compliance -> GitOps
 
+Manual process: they were first looking at stuff that noone really wanted to do.
+
+The ops team only has to approve the pull request, then it goes to prod.
+
+JiraOps! Ticket-driven delivery.
 
