@@ -1,4 +1,4 @@
-FROM golang:1.17-alpine
+FROM golang:1.17-alpine AS builder
 
 WORKDIR /app
 
@@ -7,13 +7,13 @@ RUN go mod download
 
 COPY *.go ./
 
-RUN go build -o server
+RUN CGO_ENABLED=0 go build -o server
 
-FROM alpine:latest
+FROM scratch
 
 WORKDIR /root
 
-COPY --from=0 /app/server ./
+COPY --from=builder /app/server ./
 
 EXPOSE 8090
 
