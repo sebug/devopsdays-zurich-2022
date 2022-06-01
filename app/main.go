@@ -21,7 +21,7 @@ func hello(w http.ResponseWriter, req *http.Request) {
 	fmt.Fprintf(w, "</style>\n");
 	fmt.Fprintf(w, "</head>\n");
 	fmt.Fprintf(w, "<body>\n");
-	fmt.Fprintf(w, "Ohai\n")
+	fmt.Fprintf(w, "Ohai ;-)\n")
 	fmt.Fprintf(w, "</body>\n");
 	fmt.Fprintf(w, "</html>");
 }
