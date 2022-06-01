@@ -10,7 +10,17 @@ import (
 )
 
 func hello(w http.ResponseWriter, req *http.Request) {
+	w.Header().Set("Content-Type", "text/html");
+	fmt.Fprintf(w, "<!DOCTYPE html>\n");
+	fmt.Fprintf(w, "<html>\n");
+	fmt.Fprintf(w, "<head>\n");
+	fmt.Fprintf(w, "<meta charset=\"utf-8\" />\n");
+	fmt.Fprintf(w, "<title>Hello, World</title>\n");
+	fmt.Fprintf(w, "</head>\n");
+	fmt.Fprintf(w, "<body>\n");
 	fmt.Fprintf(w, "Ohai\n")
+	fmt.Fprintf(w, "</body>\n");
+	fmt.Fprintf(w, "</html>");
 }
 
 func headers(w http.ResponseWriter, req *http.Request) {
