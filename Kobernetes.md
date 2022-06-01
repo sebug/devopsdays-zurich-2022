@@ -13,4 +13,9 @@ Installing helm
 	tar zxf helm-v3.9.0-darwin-amd64.tar.gz
 	sudo mv darwin-amd64/helm /usr/local/bin/
 
+## Workshop
+
+	docker build -t sebug/codetokobernetes:0.1 .
+
+
 
