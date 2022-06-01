@@ -137,3 +137,11 @@ protocols, topologies, how the internet works and you
 
 ### How to interact with devices
 
+## SBB BizDevOps
+650 million budget for IT
+
+## Ignites
+### T-Shaped people. Modern vision or history repeats itself? Andriy Bilous
+https://en.wikipedia.org/wiki/TRIZ
+
+
