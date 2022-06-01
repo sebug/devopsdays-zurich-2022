@@ -22,3 +22,12 @@ Installing helm
 	echo $CR_PAT | docker login ghcr.io -u sebug --password-stdin
 
 	docker push ghcr.io/sebug/codetokobernetes:0.1
+
+	kind create cluster --config config.yaml
+
+Kind automatically configures kubectl.
+
+If there is a previous configuration, remove the .kube folder
+
+	kubectl get nodes
+
