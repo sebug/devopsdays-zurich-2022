@@ -15,7 +15,6 @@ Installing helm
 
 ## Workshop
 
-	docker build -t sebug/codetokobernetes:0.1 .
-
+	docker build -t ghcr.io/sebug/codetokobernetes:0.1 .
 
 
