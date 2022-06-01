@@ -7,8 +7,14 @@ RUN go mod download
 
 COPY *.go ./
 
-RUN go build -o /server
+RUN go build -o server
+
+FROM alpine:latest
+
+WORKDIR /root
+
+COPY --from=0 /app/server ./
 
 EXPOSE 8090
 
-CMD [ "/server" ]
+CMD [ "./server" ]

@@ -19,4 +19,6 @@ Installing helm
 
 	docker run -p 8090:8090 ghcr.io/sebug/codetokobernetes:0.1
 
+	echo $CR_PAT | docker login ghcr.io -u sebug --password-stdin
 
+	docker push ghcr.io/sebug/codetokobernetes:0.1
