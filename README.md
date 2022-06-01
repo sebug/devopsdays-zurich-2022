@@ -130,3 +130,10 @@ Mentorship programs are great for the community.
 ## From the Sponsor Booth
 CheckPoint smart workflows and API endpoints for policy changes.
 
+## One evolution of the Network Engineer - Jose Leitao
+
+### Network knowledge
+protocols, topologies, how the internet works and you
+
+### How to interact with devices
+
