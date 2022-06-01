@@ -16,6 +16,9 @@ func hello(w http.ResponseWriter, req *http.Request) {
 	fmt.Fprintf(w, "<head>\n");
 	fmt.Fprintf(w, "<meta charset=\"utf-8\" />\n");
 	fmt.Fprintf(w, "<title>Hello, World</title>\n");
+	fmt.Fprintf(w, "<style>\n");
+	fmt.Fprintf(w, "body { color: blue; }\n");
+	fmt.Fprintf(w, "</style>\n");
 	fmt.Fprintf(w, "</head>\n");
 	fmt.Fprintf(w, "<body>\n");
 	fmt.Fprintf(w, "Ohai\n")
